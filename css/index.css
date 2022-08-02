@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: '微软雅黑', sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f5f9 !important;
+    font-size: 0.8em;
+    height: 800px;
+}
+
+.header {
+    width: 800px;
+    height: 200px;
+    background: url('../images/hb1.jpeg') no-repeat 50% 0;
+    box-shadow: 0 2px #d9d9d9;
+    display: flex;
+    justify-content: center;
+    margin: 60px auto 5px;
+}
+
+.logo {
+    border-radius: 10px;
+    /* 透明 */
+    /* color: #32a3b1; */
+    box-shadow: -4px -4px 15px rgba(255, 255, 255, 1), 4px 4px 15px rgba(0, 0, 0, .1);
+    background: #fff;
+    margin: 70px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+    padding: 1px;
+    border: 3px solid rgba(255, 255, 255, .5);
+    border-radius: 100%;
+    box-shadow: inset 1px 1px 4px rgba(0, 0, 0, .3), 0 2px 3px rgba(0, 0, 0, .4);
+    transition: transform 1s ease-out;
+    /* height: 60px;
+    border-radius: 50%; */
+}
+
+.logo img:hover {
+    transform: rotateZ(360deg);
+}
+
+.logo h3 {
+    margin: 0;
+    color: #239fb7;
+    /* font-size: 17px; */
+}
+
+
+/* 底部信息 */
+
+.footer {
+    width: 100%;
+    height: 180px;
+    padding: 10px;
+    background: #ccc;
+    text-align: center;
+    margin: 5px auto;
+}
+
+
+/* 适配 */
+
+@media screen and (max-width:800px) {
+    .header {
+        width: 100%;
+        background: url('../images/hb1.jpeg') no-repeat center;
+    }
+    .jumbotron {
+        font-size: 2px;
+    }
+}
