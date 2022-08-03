@@ -125,9 +125,10 @@ body {
 .footer {
     width: 800px;
     height: 80px;
-    padding: 10px;
+    /* padding: 10px; */
     background: #ccc;
     text-align: center;
+    line-height: 80px;
     margin: 5px auto;
 }
 
@@ -137,6 +138,12 @@ body {
 @media screen and (max-width:800px) {
     .navlist li:nth-child(1) {
         margin-left: 0;
+    }
+    .navlist li {
+        width: 70px;
+    }
+    .navlist a {
+        font-size: 10px;
     }
     .header,
     .container,
@@ -156,6 +163,6 @@ body {
     }
     .texts {
         text-align: center;
-        padding: 10px 80px;
+        padding: 10px 30px;
     }
 }

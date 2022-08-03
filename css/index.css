@@ -80,4 +80,7 @@ body {
     .jumbotron {
         font-size: 2px;
     }
+    .footer p {
+        font-size: 5px;
+    }
 }
