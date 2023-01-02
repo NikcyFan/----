@@ -79,9 +79,10 @@ body {
     margin: 5px auto;
 }
 
-.container div:nth-child(3n) {
+
+/* .container div:nth-child(3n) {
     margin-right: 0;
-}
+} */
 
 .picture {
     width: 250px;
@@ -90,7 +91,7 @@ body {
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     border-radius: 0 0 40px 40px;
     box-shadow: -6px -6px 20px rgba(0, 0, 0, 0.1), 6px 6px 20px rgba(0, 0, 0, .1);
-    margin-right: 25px;
+    margin: 0 8px;
     margin-bottom: 10px;
 }
 
@@ -152,9 +153,6 @@ body {
     }
     .header img {
         width: 100%;
-    }
-    .container div:nth-child(3n) {
-        margin-right: 5%;
     }
     .picture {
         width: 45%;
